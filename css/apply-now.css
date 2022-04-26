@@ -1,0 +1,125 @@
+.top-text-start {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.apply-form-start {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.for-form-in-center {
+    width: 884px;
+}
+
+.form-row {
+    display: flex;
+    width: 100%;
+}
+
+.for-upload-the-img {
+    background-color: #707070;
+    color: #FFFFFF;
+}
+
+.upload-img {
+    display: block;
+}
+
+label.form-control.upload-img.for-upload-the-img {
+    width: 135px;
+    text-align: center;
+    color: #707070;
+    font-family: "Montserrat-regular";
+    font-size: 12px;
+}
+
+label.form-control.upload-img.for-upload-the-img span {
+    color: #FFFFFF;
+    font-family: "Montserrat-regular";
+    font-size: 12px;
+}
+
+.for-normal-form-input {
+    height: 51px !important;
+    border-radius: 0px;
+    border: 1px solid #C3CAD9;
+    font-family: "Montserrat-regular";
+    background-color: #F3F3F3;
+    color: #183B56;
+    font-size: 13.5px;
+}
+
+.form-group label {
+    color: #000000;
+    font-family: "Montserrat-regular";
+    font-size: 14px;
+}
+
+.yes-or-no-check-box {
+    display: flex;
+    height: 51px;
+    align-items: center;
+}
+
+.yes-no-check-box {
+    margin-left: 20px;
+}
+
+.yes-no-check-box input {
+    padding-top: 29px;
+}
+
+@media screen and (max-width: 576px) {
+    .form-row {
+        display: unset;
+    }
+}
+
+.apply-now-form {
+    padding-bottom: 40px;
+}
+
+.for-vox-shadow {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 25px 17px !important;
+}
+
+.for-submit-the-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.for-terms-and-conditions label {
+    color: #111111;
+    font-family: "Poppins-Regular";
+    font-size: 13px;
+}
+.submit-the-form button {
+    color: #FFFFFF;
+    background-color: #111111;
+    padding: 13px 53px;
+    border: 0px;
+    font-family: "Poppins-Regular";
+    border-radius: 4px;
+    font-size: 13px;
+}
+.submit-the-form {
+    text-align: right;
+}
+@media screen and (min-width: 991px) {
+    .top-text-start p {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .for-submit-the-form{
+        display: unset;
+    }
+    .for-terms-and-conditions{
+        display: flex;
+    }
+}
